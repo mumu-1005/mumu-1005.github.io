@@ -14,6 +14,12 @@
         li {
             line-height: 200%;
         }
+        a:link {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
         .white-hr {
             color: whitesmoke;
         }
@@ -22,22 +28,15 @@
             margin-bottom: 15pt;
         }
         .block-title {
-            width: 160px;
-            background-color: rgb(105, 105, 106);
-            font-size: 15pt;
-            text-align: center;
-            color: white;
+            font-size: 20pt;
+            font-weight: bold;
             margin-top: 30px;
             margin-bottom: 15px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            padding-left: 15px;
-            padding-right: 15px;
+            color: rgb(151, 0, 0);
         }
         .name {
             font-size: 20pt;
             margin-right: 15pt;
-            margin-top: 5pt;
             display: inline-block;
         }
 
@@ -67,24 +66,25 @@
 
         .role {
             text-align: left;
-        }
+        
     </style>
 </head>
 <body>
-    <h1 class="title">Senior Python Engineer</h1>
-    <hr color="whitesmoke">
     <div>
         <div class="name">mumu</div>
-        <div class="info">Email: 136880143@qq.com &emsp; Location: Beijing</div>
+        <div class="info">
+            <a class="info" target="_blank" href="https://github.com/mumu-1005">Github</a> &emsp;
+            <a class="info" target="_blank" href="https://mumu-1005.github.io/pishon/">Blog</a>
+        </div>
     </div>
 
-    <div class="block-title">Advance</div>
-    <li>Python & FastAPI、Django、Tornado & pandas、numpy & Scientific Computing and Data Science </li>
-    <li>ADT、MySQL、Postgresql、Redis、MongoDB</li>
-    <li>Shell、Protocol Buffer、Nginx、Scrapy、Selenium、Xpath/BS4、Machine Learning、Digital Twin</li>
-    <li>DDD、TDD、Agile Software Development、Pattern Design、Data-Driven Programming</li>
-    <li>Microservices、Docker、k8s、CICD、Gitlab、JIRA、WIKI</li>
-    <li>Comsol、Salome、SolidWorks</li>
+    <div class="block-title">Skills</div>
+    <li>Python （backend、data、spider ） </li>
+    <li>ADT（Data Structure、MySQL、Postgresql、Redis、MongoDB）</li>
+    <li>Architecture（DDD、TDD、Agile Software Development、Pattern Design、Data-Driven Programming）</li>
+    <li>Tools（Microservices、Docker、k8s、CICD、Gitlab、JIRA、WIKI）</li>
+    <li>Simulation （Comsol、Salome、SolidWorks）</li>
+    <li>Focus（Machine Learning、Digital Twin）</li>
 
     <div class="block-title">Experience</div>
     <table>
@@ -108,7 +108,10 @@
             <td><li>O2O</li></td>
             <td class="role">Full Stack Engineer</td>
         </tr>
-
     </table>
+
+    <div class="block-title">Contacts</div>
+    <li>Location: Beijing</li>
+    <li>Email: 136880143@qq.com</li>
 </body>
 </html>
